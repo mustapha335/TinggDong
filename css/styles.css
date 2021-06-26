@@ -1,0 +1,158 @@
+/********************************* normal text *********************************/
+h1{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color:white;
+}
+body{
+    font-family:'Montserrat-bold', sans-serif;
+}
+h3{
+    font-family: 'Roboto Mono', monospace;
+    font-size:1.5rem;
+}
+p{
+    color:#8f8f8f;
+    font-size: 1rem;
+    
+}
+i{
+    text-align: center;
+    color: #ef8172;
+    font-size: 55px;
+    margin-bottom: 1rem;
+   
+}
+
+h2{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 2.5rem;
+    line-height:1.5;
+}
+hr{
+    border-top:dotted 7px lightgray;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width:60px;
+}
+/********************************* class *********************************/
+.container-fluid{
+    padding:3% 15% 7%;
+}
+.title-img{
+    width: 60%;
+    transform:rotate(25deg);
+    position: absolute;
+    /* z-index: -1; */
+    right:30%;
+}
+.tick{
+    text text-align: auto;
+}
+.middle{
+}
+i:hover{
+    color:#ff4c68
+} 
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}  
+.press-logo{
+     width:15%;
+     margin:20px 20px 50px;
+}
+.pricing-col{
+    padding:2%;
+    line-height:1;
+    text-align: center;
+}
+.pricing-title{
+    font-family:'Ubuntu', sans-serif;
+    text-align: center;
+}
+.cta{
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+    font-size: 67px;
+    line-height: 1.5;
+    margin: 0 90px 0 90px;
+}
+.footer{
+    size: 2px;
+}
+
+
+/********************************* id ********************************/
+#title{
+    background-color: #ff4c68;
+}
+#features{
+    text-align: center;
+    padding-top: 7%;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 7%;
+    z-index: 1;
+    position: relative;
+    background-color:whitesmoke;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#ff4c68;
+    color:white;
+}
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom:3%;
+
+}
+#pricing{
+    padding:100px;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7%;
+    margin:0%
+}
+#footer{
+    text-align: center;
+    padding:7%;
+    background-color:white;
+}
+
+/********************************* navigation bar *********************************/
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-family:'Montserrat-light', sans-serif; 
+    font-size: 1rem;
+}
+/********************************* download features ********************************/
+.download-button{
+    margin:5% 3% 5% 0;
+}
+@media (max-width:992px){
+    .title-img{
+        position:static;
+        transform:rotate(0);
+    }
+    #title{
+    text-align:center;
+    } 
+}
